@@ -29,7 +29,10 @@ function MainPage(props) {
   };
   return (
     <div className="photo-main">
-      <Banner title="Your awesome photos" backgroundUrl={Images.COLORFUL_BG} />
+      <Banner
+        title="Your awesome photos add"
+        backgroundUrl={Images.COLORFUL_BG}
+      />
       <Container className="text-center">
         <div className="py-5">
           <Link to="/photos/add">Add new photo</Link>
